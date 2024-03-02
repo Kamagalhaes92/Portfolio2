@@ -499,6 +499,10 @@ ul {
   padding-left: 15px;
   display: inline-block;
 }
+
+.footer-contact-title {
+  color: white;
+}
 .footer-contact h4 {
   color: #fff;
   font-size: 20px;
@@ -608,7 +612,7 @@ textarea {
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #878787;
+  color: #ffffff;
 }
 
 /*About me Page*/
@@ -623,17 +627,28 @@ textarea {
   font-weight: 200;
 }
 
-.contact-me-section {
-  background: black;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+.outer-container h1,
+h3,
+p {
+  color: white;
 }
 
-.contact-me-section h1 {
-  color: white;
+.outer-container {
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 92vh;
+}
+
+.subtle-text {
+  color: #494949;
+  font-size: 16px;
+}
+
+.inner-container {
+  flex-direction: column;
 }
 
 @media (max-width: 900px) {
