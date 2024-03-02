@@ -78,3 +78,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+function submitForm(event) {
+  event.preventDefault();
+
+  let formContainer = document.getElementById("form-container");
+  let thankYouMessage = document.getElementById("thank-you-message");
+
+  formContainer.style.display = "none";
+  thankYouMessage.style.display = "block";
+}

@@ -472,30 +472,6 @@
                 law and legal practice..
               </p>
             </div>
-            <h2 class="title-about-me text-center mb-5 mt-5">
-              Previous Education
-            </h2>
-            <div class="col-sm-6">
-              <h2 class="education-title">SoloLearn</h2>
-              <p class="about-me-text">Python Intermediate</p>
-              <p class="about-me-text mb-2">May 2023 - July 2023</p>
-              <p>
-                Sololearn oversimplifies coding by offering interactive
-                bite-sized courses that will make you confident in the latest
-                technologies.
-              </p>
-            </div>
-            <div class="col-sm-6">
-              <h2 class="education-title">Unip University</h2>
-              <p class="about-me-text">Bachelor's in Law</p>
-              <p class="about-me-text mb-2">Jan 2013 - Jan 2018</p>
-              <p>
-                Law school is a graduate-level educational institution where
-                individuals study and train to become legal professionals,
-                including lawyers and attorneys, by learning the principles of
-                law and legal practice..
-              </p>
-            </div>
           </div>
           <div class="row mt-5 pt-5 contact-me text-center" id="contact-me">
             <h2>Contact Me</h2>
@@ -597,52 +573,72 @@
               </div>
             </div>
             <div class="col-md-5">
-              <h2 class="footer-contact-title">Contact Me</h2>
-              <form id="contact-form" class="form-horizontal" role="form">
-                <div class="col-sm-12">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    placeholder="NAME"
-                    name="name"
-                    value=""
-                    required
-                  />
-                </div>
-
-                <div class="form-group">
+              <div id="form-container">
+                <h2 class="footer-contact-title">Contact Me</h2>
+                <form
+                  id="contact-form"
+                  class="form-horizontal"
+                  role="form"
+                  onsubmit="submitForm(event)"
+                >
                   <div class="col-sm-12">
                     <input
-                      type="email"
+                      type="text"
                       class="form-control"
-                      id="email"
-                      placeholder="EMAIL"
-                      name="email"
+                      id="name"
+                      placeholder="NAME"
+                      name="name"
                       value=""
                       required
                     />
                   </div>
-                </div>
-                <textarea
-                  class="form-control"
-                  rows="5"
-                  placeholder="MESSAGE"
-                  name="message"
-                  required
-                ></textarea>
-                <button
-                  class="btn btn-dark send-button"
-                  id="submit"
-                  type="submit"
-                  value="SEND"
-                >
-                  <div class="alt-send-button">
-                    <i class="fa fa-paper-plane"></i
-                    ><span class="send-text">SEND</span>
+
+                  <div class="form-group">
+                    <div class="col-sm-12">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="EMAIL"
+                        name="email"
+                        value=""
+                        required
+                      />
+                    </div>
                   </div>
-                </button>
-              </form>
+                  <textarea
+                    class="form-control"
+                    rows="5"
+                    placeholder="MESSAGE"
+                    name="message"
+                    required
+                  ></textarea>
+                  <button
+                    class="btn btn-dark send-button"
+                    id="submit"
+                    type="submit"
+                    value="SEND"
+                  >
+                    <div class="alt-send-button">
+                      <i class="fa fa-paper-plane"></i
+                      ><span class="send-text">SEND</span>
+                    </div>
+                  </button>
+                </form>
+              </div>
+              <div
+                id="thank-you-message"
+                style="display: none"
+                class="col-sm-6"
+              >
+                <p class="thank-you-text">
+                  Thank you for your interest! We are currently unable to
+                  receive messages from this form. Please send an email to
+                  <a href="mailto:karinemagalhaes92@gmail.com"
+                    >karinemagalhaes92@gmail.com</a
+                  >.
+                </p>
+              </div>
             </div>
           </div>
         </div>
