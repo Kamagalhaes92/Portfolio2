@@ -636,4 +636,18 @@ textarea {
     text-align: center;
     font-size: 36px;
   }
+
+  .second-section-skills h3 {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  .second-section-skills h3.appear {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.third-section-projects {
+  text-align: center;
 }
