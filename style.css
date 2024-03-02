@@ -627,19 +627,18 @@ textarea {
   font-weight: 200;
 }
 
-.outer-container h1,
-h3,
-p {
-  color: white;
-}
-
 .outer-container {
   background: black;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  height: 92vh;
+  color: white;
+  height: 100vh;
+}
+
+.text-flex {
+  color: white;
 }
 
 .subtle-text {
