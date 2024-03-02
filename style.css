@@ -647,7 +647,8 @@ textarea {
     opacity: 1;
     transform: translateY(0);
   }
-}
-.third-section-projects {
-  text-align: center;
+
+  .third-section-projects {
+    text-align: center;
+  }
 }
