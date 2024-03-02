@@ -623,6 +623,19 @@ textarea {
   font-weight: 200;
 }
 
+.contact-me-section {
+  background: black;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.contact-me-section h1 {
+  color: white;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
