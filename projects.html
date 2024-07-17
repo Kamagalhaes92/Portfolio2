@@ -13,6 +13,10 @@
       href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/eb9f46f493.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -24,11 +28,9 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://kit.fontawesome.com/eb9f46f493.js"
-      crossorigin="anonymous"
-    ></script>
+
     <link rel="stylesheet" href="style.css" />
+
     <title>Projects - Karine Magalhaes</title>
   </head>
   <body>
@@ -78,23 +80,76 @@
               class="img-fluid mb-3 rounded"
               alt="weather app"
             />
-            <a
-              href="https://react-weather-karine-dev.netlify.app/"
-              target="_blank"
-              ><h3 class="text-center m-0">React Weather App</h3></a
+            <h3
+              class="text-center m-0 dropdown-toggle"
+              data-bs-toggle="collapse"
+              data-bs-target="#weatherAppInfo"
+              aria-expanded="false"
+              aria-controls="weatherAppInfo"
             >
-            <p class="text-center">Built using APIs and React</p>
+              React Weather App
+            </h3>
+            <div class="collapse" id="weatherAppInfo">
+              <p class="text-center">
+                Built using APIs and React. Forget about the grays of
+                traditional weather apps—explore a fun and cute pastel color
+                design with this weather platform! Discover comprehensive
+                real-time weather updates for more than 200,000 cities
+                worldwide. Switch effortlessly between Celsius and Fahrenheit
+                units to check the current temperature, and dive into detailed
+                weekly and hourly forecast data. Stay informed with up-to-date
+                local time and date, and enjoy a dynamic experience with
+                animated weather icons.
+              </p>
+              <div class="text-center">
+                <a
+                  href="https://react-weather-karine-dev.netlify.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Try Live</a
+                >
+              </div>
+            </div>
           </div>
           <div class="col-md-6 mb-4">
             <img
               src="/media/wordwave-dictionary.png"
               class="img-fluid mb-3 rounded"
-              alt="dicitonary app"
+              alt="dictionary app"
             />
-            <a href="https://vaporwave-dictionary.netlify.app/" target="_blank"
-              ><h3 class="text-center m-0">WordWave Dictionary App</h3></a
+            <h3
+              class="text-center m-0 dropdown-toggle"
+              data-bs-toggle="collapse"
+              data-bs-target="#dictionaryAppInfo"
+              aria-expanded="true"
+              aria-controls="dictionaryAppInfo"
             >
-            <p class="text-center">Built using APIs and React</p>
+              WordWave Dictionary App
+            </h3>
+            <div class="collapse" id="dictionaryAppInfo">
+              <p class="text-center">
+                Built using APIs and React. Experience a comprehensive modern
+                and fun dictionary app that enhances your vocabulary with ease.
+                The intuitive search functionality provides instant word
+                definitions, examples, and images, making learning a seamless
+                experience. Users earn coins with each search, adding a gamified
+                element to your vocabulary expansion journey. Discover a new
+                word every day with the Word of the Day feature, ensuring
+                constant growth.Enjoy optional retro synth tunes as background
+                music, and switch between light and dark themes for a
+                personalized interface. Visual learning is supported through
+                integrated images, all within a responsive design that works
+                flawlessly across all devices.
+              </p>
+              <div class="text-center">
+                <a
+                  href="https://vaporwave-dictionary.netlify.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Try Live</a
+                >
+              </div>
+            </div>
           </div>
           <div class="col-md-6 mb-4">
             <img
@@ -102,25 +157,81 @@
               class="img-fluid mb-3 rounded"
               alt="Ai Recipe Generator"
             />
-            <a
-              href="https://ai-recipe-generator-app.netlify.app/"
-              target="_blank"
-              ><h3 class="text-center m-0">
-                SmartPalate Ai Recipe Generator App
-              </h3></a
+            <h3
+              class="text-center m-0 dropdown-toggle"
+              data-bs-toggle="collapse"
+              data-bs-target="#aiAppGeneratorInfo"
+              aria-expanded="false"
+              aria-controls="aiAppGeneratorInfo"
             >
-            <p class="text-center">Built using API, JavaScript and Bootstrap</p>
+              SmartPalate Ai Recipe Generator App
+            </h3>
+            <div class="collapse" id="aiAppGeneratorInfo">
+              <p class="text-center">
+                Experience the future of meal planning with an innovative app
+                that combines two AI-powered modes to simplify your culinary
+                adventures. The Recipe Generator lets you select up to 10
+                ingredients you have at home, crafting personalized recipes
+                complete with a macronutrient breakdown. For budget-conscious
+                users, the Grocery on a Budget mode allows you to choose your
+                diet type, set a weekly budget, and specify your meal needs. The
+                AI then generates a shopping list with prices and provides meal
+                ideas using those items. The app includes a dark mode for a
+                comfortable viewing experience, and upcoming multilingual
+                support will soon make it accessible in multiple languages.
+                Users can conveniently copy and download their favorite recipes,
+                ensuring easy access to meal ideas anytime. With a fully
+                responsive design, the app features engaging typewriter effects
+                and simple animations, enhancing user experience across all
+                devices. Leveraging APIs, the app delivers accurate and
+                up-to-date information to help you manage your meals efficiently
+                and effortlessly.
+              </p>
+              <div class="text-center">
+                <a
+                  href="https://ai-recipe-generator-app.netlify.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Try Live</a
+                >
+              </div>
+            </div>
           </div>
           <div class="col-md-6 mb-4">
             <img
               src="/media/travel-to-london.png"
               class="img-fluid mb-3 rounded"
-              alt="travel to london website"
+              alt="london website"
             />
-            <a href="https://traveltolondon.netlify.app/" target="_blank"
-              ><h3 class="text-center m-0">Travel to London Website</h3></a
+            <h3
+              class="text-center m-0 dropdown-toggle"
+              data-bs-toggle="collapse"
+              data-bs-target="#londonWebsiteInfo"
+              aria-expanded="false"
+              aria-controls="londonWebsiteInfo"
             >
-            <p class="text-center">Built using HTML,CSS, JavaScript</p>
+              Travel to London Website
+            </h3>
+            <div class="collapse" id="londonWebsiteInfo">
+              <p class="text-center">
+                Discover everything you need for an unforgettable trip to London
+                with this comprehensive travel guide. The website offers
+                real-time weather updates, curated lists of central, unique, and
+                affordable hotels, and top restaurant recommendations, including
+                vegan, Caribbean, French, Italian, and Asian cuisine. Explore
+                must-see attractions like the Tower of London, Windsor Great
+                Park, and Westminster Abbey. Enjoy a vibrant gallery showcasing
+                London's highlights and conveniently book your flight.
+              </p>
+              <div class="text-center">
+                <a
+                  href="https://traveltolondon.netlify.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Try Live</a
+                >
+              </div>
+            </div>
           </div>
           <div class="col-md-6 mb-4">
             <img
@@ -128,10 +239,34 @@
               class="img-fluid mb-3 rounded"
               alt="weather app"
             />
-            <a href="https://karine-weather-app.netlify.app/" target="_blank"
-              ><h3 class="text-center m-0">Weather App</h3></a
+            <h3
+              class="text-center m-0 dropdown-toggle"
+              data-bs-toggle="collapse"
+              data-bs-target="#firstWeatherAppInfo"
+              aria-expanded="false"
+              aria-controls="firstWeatherAppInfo"
             >
-            <p class="text-center">Built using HTML,CSS, API, JavaScript</p>
+              Weather App
+            </h3>
+            <div class="collapse" id="firstWeatherAppInfo">
+              <p class="text-center">
+                Explore comprehensive real-time weather updates for more than
+                200,000 cities worldwide. Switch effortlessly between Celsius
+                and Fahrenheit units to check the current temperature. Customize
+                your experience with a choice of over 10 background themes,
+                accompanied by randomly generated quotes. This platform is
+                powered by the OpenWeather API, ensuring accurate and up-to-date
+                weather information.
+              </p>
+              <div class="text-center">
+                <a
+                  href="https://karine-weather-app.netlify.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Try Live</a
+                >
+              </div>
+            </div>
           </div>
           <div class="col-md-6 mb-4">
             <img
@@ -139,25 +274,72 @@
               class="img-fluid mb-3 rounded"
               alt="world clock app"
             />
-            <a
-              href="https://aroundtheworld-worldclock.netlify.app/"
-              target="_blank"
-              ><h3 class="text-center m-0">World Clock Project</h3></a
+            <h3
+              class="text-center m-0 dropdown-toggle"
+              data-bs-toggle="collapse"
+              data-bs-target="#worldClockInfo"
+              aria-expanded="false"
+              aria-controls="worldClockInfo"
             >
-            <p class="text-center">
-              Built with HTML, CSS and JavaScript and Moment JS
-            </p>
+              World Clock App
+            </h3>
+            <div class="collapse" id="worldClockInfo">
+              <p class="text-center">
+                Experience a dynamic world clock website featuring a responsive
+                digital and analog clock that seamlessly displays the current
+                time of your location. The user-friendly dashboard showcases
+                time in four distinct locations, each accompanied by stunning
+                background visuals upon hovering. Users can easily select from a
+                curated list of nine cities using a dropdown menu, revealing
+                additional information about the chosen city. As a final touch,
+                enjoy an engaging animation depicting a moving train,
+                symbolizing the relentless passage of time.
+              </p>
+              <div class="text-center">
+                <a
+                  href="https://karine-weather-app.netlify.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Try Live</a
+                >
+              </div>
+            </div>
           </div>
           <div class="col-md-6 mb-4">
             <img
               src="/media/binge-worthy-show.png"
               class="img-fluid mb-3 rounded"
-              alt="binge worthy show website"
+              alt="binge-worthy show"
             />
-            <a href="https://leafy-genie-fdea61.netlify.app/" target="_blank"
-              ><h3 class="text-center m-0">Binge Worthy Landing Page</h3></a
+            <h3
+              class="text-center m-0 dropdown-toggle"
+              data-bs-toggle="collapse"
+              data-bs-target="#showAppInfo"
+              aria-expanded="false"
+              aria-controls="showAppInfo"
             >
-            <p class="text-center">Built with HTML, CSS and Java Script</p>
+              Binge Worthy Show
+            </h3>
+            <div class="collapse" id="showAppInfo">
+              <p class="text-center">
+                Are you a fan of The Vampire Diaries? Dive into the world of
+                Mystic Falls with a website dedicated to this captivating
+                series. Explore detailed sections on the cast, watch the
+                trailer, and browse a vibrant gallery of iconic moments. Learn
+                about the main characters like Damon, Elena, and Stefan, and
+                discover behind-the-scenes insights. This site was created as
+                part of a SheCodes challenge and it is a perfect resource for
+                both new viewers and long-time fans of the show.
+              </p>
+              <div class="text-center">
+                <a
+                  href="https://leafy-genie-fdea61.netlify.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Try Live</a
+                >
+              </div>
+            </div>
           </div>
           <div class="col-md-6 mb-4">
             <img
@@ -165,23 +347,74 @@
               class="img-fluid mb-3 rounded"
               alt="plant based website"
             />
-            <a href="https://easytoeatplantbased.netlify.app/" target="_blank"
-              ><h3 class="text-center m-0">Plant Based Landing Page</h3></a
+            <h3
+              class="text-center m-0 dropdown-toggle"
+              data-bs-toggle="collapse"
+              data-bs-target="#plantBasedAppInfo"
+              aria-expanded="false"
+              aria-controls="plantBasedAppInfo"
             >
-            <p class="text-center">Built with HTML, CSS and Java Script</p>
+              Plant Based Landing Page
+            </h3>
+            <div class="collapse" id="plantBasedAppInfo">
+              <p class="text-center">
+                Are you interested in plant-based eating? This website is your
+                go-to guide for embracing a plant-based lifestyle. It features
+                sections on the benefits of not eating meat, including health
+                advantages and environmental impacts. You can find a variety of
+                plant-based recipes to try, with options ranging from breakfast
+                to dinner. The site also includes fascinating facts about
+                animals, emphasizing the ethical considerations of a plant-based
+                diet.This website is a comprehensive resource for anyone looking
+                to reduce meat consumption and adopt a healthier, more
+                compassionate lifestyle.
+              </p>
+              <div class="text-center">
+                <a
+                  href="https://easytoeatplantbased.netlify.app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Try Live</a
+                >
+              </div>
+            </div>
           </div>
           <div class="col-md-6 mb-4">
             <img
               src="/media/brazil-landing-page.png"
               class="img-fluid mb-3 rounded"
-              alt="brazil landing page website"
+              alt="brazil landing page"
             />
-            <a
-              href="https://www.shecodes.io/cohorts/shecodes-basics-bfc9f129-77d0-499e-8186-006a5903991f/projects/1932386?_gl=1*15re5vk*_gcl_au*MTc3NTg2NDEwMi4xNzA4MzY2MDcy"
-              target="_blank"
-              ><h3 class="text-center m-0">Brazil Landing Page</h3></a
+            <h3
+              class="text-center m-0 dropdown-toggle"
+              data-bs-toggle="collapse"
+              data-bs-target="#brazilWebsiteInfo"
+              aria-expanded="false"
+              aria-controls="brazilWebsiteInfo"
             >
-            <p class="text-center">Built with HTML, CSS</p>
+              Brazil Landing Page
+            </h3>
+            <div class="collapse" id="brazilWebsiteInfo">
+              <p class="text-center">
+                My first-ever website, created as part of her SheCodes workshop
+                project. This website was created to share insights about
+                Brazil, featuring links to food recipes, hotels, activities, and
+                unique places to stay. It showcases favorite spots across Brazil
+                and highlights the country's vibrant culture. This website
+                showcase my initial foray into web development, highlighting my
+                growing skills and creativity. It features a clean design,
+                interactive elements, and demonstrates my ability to apply HTML,
+                CSS, and JavaScript effectively.
+              </p>
+              <div class="text-center">
+                <a
+                  href="https://www.shecodes.io/cohorts/1494/projects/1932386?_gl=1*1sbocu4*_gcl_au*NDk0NDQ2MDE1LjE3MjExNjE1NTY."
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Try Live</a
+                >
+              </div>
+            </div>
           </div>
         </div>
       </div>
