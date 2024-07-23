@@ -12,6 +12,11 @@
   --secondary-font-size: 60px;
 }
 
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
 /* Main section - header*/
 
 h1 {
